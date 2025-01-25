@@ -1,4 +1,6 @@
 # Data_Cleaning_with_Python
+![](Intro_Image.png)
+
 ## Data Overview
 The dataset contains multiple rows and columns...
 # Methods
