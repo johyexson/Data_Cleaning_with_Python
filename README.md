@@ -38,4 +38,4 @@ data.dtypes
 data= data.astype({' Dependents': 'int','Zip_Code': 'int','Referrals': 'int','Tenure': 'int','Avg_Monthly_Long_Distance_Charges': 'int','Avg_Monthly_GB Download': 'int','Monthly_Charge': 'int','Total_Charges': 'int','Total_Refunds': 'int','Total_Extra_Data_Charges': 'int','Total_Long_Distance_Charges': 'int','Total_Revenue': 'int'})
 ```
 # Code
-You can view the full code here
+You can view the full code [here](Data_Cleaning_with_Python.ipynb)
