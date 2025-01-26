@@ -11,4 +11,9 @@ data= pd.read_csv(r'telecom_customer_churn.csv')
 data.head()
 ```
 - Removing duplicates from the data
+```python
+data.duplicated()
+data.drop_duplicates(inplace= True)
+data.duplicated().sum()
+```
 # Continuation
