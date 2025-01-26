@@ -4,13 +4,13 @@
 # Data Overview
 The dataset contains multiple rows and columns...
 # Process
-- Importing the data cleaning package and the dataset for wrangling and transformation 
+- Importing the data cleaning package and loading the dataset for wrangling and transformation 
 ```python
 import pandas as pd
 data= pd.read_csv(r'telecom_customer_churn.csv')
 data.head()
 ```
-- Removing duplicates from the data
+- Checking for duplicates and removing duplicated rows from the data
 ```python
 data.duplicated()
 data.drop_duplicates(inplace= True)
