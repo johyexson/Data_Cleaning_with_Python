@@ -27,4 +27,15 @@ data.duplicated().sum()
 data.columns
 data.drop(columns= ["Latitude", "Longitude"], inplace = True)
 ```
-# Continuation
+- Checking for columns with null values and filling them with data
+```python
+data.isnull().sum()
+data.fillna(['Not Applicable'], inplace= True)
+```
+- Converting data types in multiple columns to ensure consistency in data formats
+```python
+data.dtypes
+data= data.astype({' Dependents': 'int','Zip_Code': 'int','Referrals': 'int','Tenure': 'int','Avg_Monthly_Long_Distance_Charges': 'int','Avg_Monthly_GB Download': 'int','Monthly_Charge': 'int','Total_Charges': 'int','Total_Refunds': 'int','Total_Extra_Data_Charges': 'int','Total_Long_Distance_Charges': 'int','Total_Revenue': 'int'})
+```
+# Code
+You can view the full code here
