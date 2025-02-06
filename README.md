@@ -3,7 +3,6 @@
 # Table of Contents
 - [Case Study](#case-study)
 - [Data Source](#data-source)
-- [Hypothesis](#hypothesis)
 - [Method of Analysis](#method-of-analysis)
 - [Code](#code)
 - [Findings and Recommendations](#findings-and-recommendations)
@@ -12,8 +11,6 @@
 Customer segmentation in order to classify customer based on demographics, purchasing behaviour and other characteristics.
 # Data Source
 The data was gotten from Maven Analytics Data Playground.[Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
-# Hypothesis
-My assumptions are as follows:
 # Method of Analysis 
 - Importing the data cleaning package and loading the dataset for wrangling and transformation 
 ```python
