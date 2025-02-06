@@ -1,9 +1,20 @@
-# Data_Cleaning_with_Python
+# Customer_Segmentation_Using_Python
 ![](Intro_Image.png)
+# Table of Contents
+- [Case Study](#case-study)
+- [Data Source](#data-source)
+- [Hypothesis](#hypothesis)
+- [Method of Analysis](#method-of-analysis)
+- [Code](#code)
+- [Findings and Recommendations](#findings-and-recommendations)
 
+# Case Study
+Customer segmentation in order to classify customer based on demographics, purchasing behaviour and other characteristics.
 # Data Source
-The data was gotten from Maven Analytics Data Playground. The customer churn data includes details about customer demographics, location, services and current status. It consists of multiple tables, 7043 records and 34 fields stored in a csv file. [Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
-# Process
+The data was gotten from Maven Analytics Data Playground.[Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
+# Hypothesis
+My assumptions are as follows:
+# Method of Analysis 
 - Importing the data cleaning package and loading the dataset for wrangling and transformation 
 ```python
 import pandas as pd
